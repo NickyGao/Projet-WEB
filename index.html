@@ -1,189 +1,97 @@
 <!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Informations générales sur l'université de Cergy pontoise </title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="./page-simple/style.css">
+</head>
+<body>
+    <a id="haut"></a>
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" href="style.css" />
-		<style type="text/css">
-			#wrapper{
-				width:980px;
-				margin: 0 auto 0 auto;
-			}
+<header>
+	<h1>Informations Générales Sur L'université De Cergy - Pontoise</h1>
+</header>
 
-			#main{
-				float:left;
-				width:75%;
-				margin: 0 0 50px 0;
-			}
+<section>
+	<p>Bienvenue sur notre site ,ce site vous présente les informations générales à propos de l'université Cergy-Pontoise.Ces informations sont :</p>	
+</section>
 
-			#sidebar{
-				float:left;
-				width:20%;
-				margin-top:1em;
-			}
+<nav>
+	<ul>
+		<li>Création de l'université</li>
+		<li>Implantations</li>
+		<li>Formations</li>
+	</ul>	
+</nav>
 
-			.legende{
-				text-align: center;
-			}
-			
-			nav ul li{
-				display:inline-block;
-				font-size: 8pt;
-			}
+<div class="image"><p><img src="./page-simple/img/ucp.jpg" alt="Image"></p>
+</div>
+<section id="cdu">
+	<h2>Création de l'univesité :</h2>
+	<p>À la fin des années <strong>1960</strong>, la municipalité de la ville nouvelle de cergy et Bernard Hirsch, l’urbaniste qui porte le projet de développement de la ville, essaient sans succès d’obtenir une implantation universitaire dans la ville, mais plusieurs écoles d’enseignement supérieur s’y implantent cependant. Les choses évoluent de nouveau à partir de la fin des années <strong>1980</strong>. Les universités parisiennes connaissent une hausse importante de leurs effectifs, et commencent à ouvrir de nouvelles implantations pour alléger leurs sites principaux. Dans le même temps, le ministère de l'enseignement supérieur programme dans le cadre du plan de modernisation de l’enseignement supérieur français<strong>« université 2000 » </strong> la création d’universités nouvelles.</p>
+	<p>Une première implantation universitaire est obtenue <strong>en 1989</strong>, avec l’ouverture par l’institut universitaire de technologie (IUT) de Ville-d'Avray d’une antenne comprenant trois départements de génie civil, de génie électrique et de techniques de commercialisation. Au même moment, l’université de Nanterre ouvre un nouveau site de premier cycle dans des locaux dits « du campus » mis à disposition par le conseil général. <strong>En 1990 </strong> , le ministère accompagne la venue d’une équipe venant de l’université de Paris-sud pour mettre en place un diplôme d'études universitaires générales (DEUG A) « Sciences et structure de la matière », qui sont hébergés dans les locaux de l’IUT et de l’école nationale supérieure de l'électronique et de ses applications (ENSEA).<strong>Le 22 juillet 1991</strong> , le décret de création de l’université de Cergy-Pontoise est signé</p>
+</section>
 
-			article{
-				border:1px dashed #444;
-				margin:1em;
-				padding:1em;
-				background:#ccc;
-			}
+<section  id="imp" >
+	<h2>Implantations :</h2>
+	<p class="text">L'université est implantée principalement sur trois campus situés dans les villes de Cergy, Pontoise et de Neuville-sur-Oise, mais dispose aussi d'autres implantations sur un total de douze sites, répartis dans quatre départements et neuf communes. Au total l'établissement dispose en 2011 d'un patrimoine de 215 000 m2 de surfaces bâties</p>
 
-			article h2{
-				margin-top: 1em;
-				text-align: center;
-			}
+	<p class="image">
+		<img src="./page-simple/img/chênes.jpg" alt="site des Chênes" class="sdc">
+		<img src="./page-simple/img/stmartian.jpg" alt="site de Saint-Martin" class="ssm">
+		<img src="./page-simple/img/neuville.jpg" alt="site de Neuville-sur-Oise" class="snv">
+		<img src="./page-simple/img/gennevilliers.png" alt="site de Gennevilliers" class="sg">
+	</p>
 
-			article header{
-				border:1px dashed #ccc;
-				padding:1em;
-				background:azure;
-			}
+	<ul>
+		<li>Site des Chênes</li>
+		<li>Site de Saint-Martin</li>
+		<li>Site de Neuville-sur-Oise</li>
+		<li>Site de Gennevilliers</li>
+	</ul>
 
-			aside{
-			}
-			
-			footer{
-				clear:both;
-				text-align: center;
-			}
-			
-		</style>
-		<title>Mon site</title>
-	</head>
 	
-	<body>
-		<header>
-			<h1>Bienvenue sur mon site</h1>
-		</header>
-		
-		<div id="wrapper">
-			<section id="main">
-			
-			
-				<article>
-					<header>
-						<h2>TD1</h2>			
-					</header>
-			
-					<p>Voici un petit aperçu du contenu du TD1 :</p>
-				
-					<figure>
-						<img src="./TD1/exempleProjet.png" alt="Screenshot du projet" />
-  						<figcaption class="legende"><em>Exemple du projet</em></figcaption>
-					</figure>
-				</article>
-				
-		
-				<article>
-					<header>
-						<h2 id="ancre">TD2</h2>			
-					</header>
-					
-					<p>Voici un petit aperçu du contenu du TD2 :</p>
-				
-					<figure>
-						<img src="./TD2/Plan.png" height="352" width="470" alt="Screenshot du plan du site" />
-  						<figcaption class="legende"><em>Plan du site</em></figcaption>
-					</figure>
-				</article>
-				
-				
-			</section>
-			
-			<aside class="sidebar">
-				<h2>Navigation</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="./TD1/Projet.html">TD1</a></li>
-						<li><a href="./TD2/index.html">TD2</a></li>
-						<li><a href="td5.php">TD5</a></li>
-						<li><a href="td6.php">TD6</a></li>
-						<li><a href="./TD7/fonctions.inc.php">TD7</a></li>					
-						<li><a href="./TD8/td8.php">TD8</a></li>
-						<li><a href="./TD9/formulaire.php">TD9</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
-			
-			<aside class="sidebar">
-				<h2>TD à venir ...</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="construction.html">TD10</a></li>
-						<li><a href="construction.html">TD11</a></li>
-						<li><a href="construction.html">TD12</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
-			
-			<aside class="sidebar">
-				<h2>Liens absolus</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="https://openclassrooms.com">OpenClassrooms</a></li>
-						<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens">Cours Liens</a></li>
-						<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens#/id/r-1604554">Spécifique</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
-			
-			<aside class="sidebar">
-				<h2>Liens relatifs</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="./TD2/index.html">TD2</a></li>
-						<li><a href="construction.html">Construction</a></li>
-						<li><a href="#ancre">Article sur le TD2</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
-			
-			<aside class="sidebar">
-				<h2>Lien mixte</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/0e/Cours_php.pdf">Cours PHP</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
-			
-			<aside class="sidebar">
-				<h2>PHP Infos</h2>
-				
-				<nav>
-					<ul>
-						<li><a href="phpinfo.php">PHP Info</a></li>
-					</ul>				
-				</nav>
-				
-			</aside>
 
-			
-		</div>
-				
-		<footer>
-			<a href="https://www.u-cergy.fr/fr/index.html" ><img src="logo-ucp.png" alt="Université de Cergy-Pontoise"/></a>	
-		</footer>
+</section>
 
-	</body>
+<section id="for">
+	<h2>Formations :</h2>
+	<p>À la rentrée 2010, l’université de Cergy-Pontoise propose 41 mentions de licence, 35 mentions de licence professionnelle, 19 diplômes universitaires, 100 mentions de Master, sept diplômes universitaires de technologie. La même année, l'établissement a délivré 1 648 diplômes de licence, 751 diplômes de licence professionnelle, 540 diplômes de DUT et 1 106 diplômes de Master.</p>
+	<p>La licence générale est délivrée en 2008 dans quatre domaines qui se déclinent en mentions, puis en spécialités : Arts-Lettres-Langues (4 mentions), Droit–Économie-Gestion (5 mention), Sciences Humaines et Sociales (3 mentions) et Sciences, Technologie, Santé (9 mentions). Lors de leur évaluation par l'AERES, 10 de ces mentions ont obtenu la notation A ou A+, 9 la notation B et 2 la mention C. Le master est délivré en 2008 dans deux domaines qui se déclinent en mentions, puis en spécialités et éventuellement en parcours : Sciences et technologies (3 mentions, 19 spécialités) et Sciences humaines et sociales (14 mentions, 53 spécialités).</p>
+    <p>
+        Pour Plus d'informations :
+    </p>
+    <ul>
+    <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipedia</a></li>
+    <li><a href="https://fr.wikipedia.org/wiki/Universit%C3%A9_de_Cergy-Pontoise" >Wiki fac </a></li>
+    <li><a href="./construct/construct.html">TD 5 </a></li>
+    <li><a href="#haut">Retour en haut de la Page</a></li>  
+    </ul>
+    
+      <div class="alire"><p>A lire aussi :</p>
+<ul>
+    <li><a href="./NAAL_DOMINGUES/index.html">Notre CV </a></li>
+    <li><a href="./rapport/index.html" >Rapport </a></li>
+    <li><a href="./php/td5.php">PHP </a></li>
+    <li><a href="./construct/construct.html">TD 6 </a></li>
+    <li><a href="./construct/construct.html">TD 7 </a></li>
+    <li><a href="./construct/construct.html">TD 8 </a></li>
+    <li><a href="./construct/construct.html">TD 9 </a></li>
+    <li><a href="./construct/construct.html">TD 10 </a></li>
+    <li><a href="./construct/construct.html">TD 11 </a></li>
+    <li><a href="./construct/construct.html">TD 12 </a></li>
+    </ul>
+    </div>
+    
+</section>
+<footer>
+<div class="droit"><p>copyright &copy; 2017 - Tous droits réservés à leur propriétaires respectifs</p></div>
+    <?php
+        include("compteur.inc");
+    ?>
+  
+
+</footer>
+
+</body>
 </html>
