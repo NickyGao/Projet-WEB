@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<style type="text/css">
+			#wrapper{
+				width:980px;
+				margin: 0 auto 0 auto;
+			}
+
+			#main{
+				float:left;
+				width:75%;
+				margin: 0 0 50px 0;
+			}
+
+			#sidebar{
+				float:left;
+				width:20%;
+				margin-top:1em;
+			}
+
+			.legende{
+				text-align: center;
+			}
+			
+			nav ul li{
+				display:inline-block;
+				font-size: 8pt;
+			}
+
+			article{
+				border:1px dashed #444;
+				margin:1em;
+				padding:1em;
+				background:#ccc;
+			}
+
+			article h2{
+				margin-top: 1em;
+				text-align: center;
+			}
+
+			article header{
+				border:1px dashed #ccc;
+				padding:1em;
+				background:azure;
+			}
+
+			aside{
+			}
+			
+			footer{
+				clear:both;
+				text-align: center;
+			}
+			
+		</style>
+		<title>Mon site</title>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Bienvenue sur mon site</h1>
+		</header>
+		
+		<div id="wrapper">
+			<section id="main">
+			
+			
+				<article>
+					<header>
+						<h2>TD1</h2>			
+					</header>
+			
+					<p>Voici un petit aperçu du contenu du TD1 :</p>
+				
+					<figure>
+						<img src="./TD1/exempleProjet.png" alt="Screenshot du projet" />
+  						<figcaption class="legende"><em>Exemple du projet</em></figcaption>
+					</figure>
+				</article>
+				
+		
+				<article>
+					<header>
+						<h2 id="ancre">TD2</h2>			
+					</header>
+					
+					<p>Voici un petit aperçu du contenu du TD2 :</p>
+				
+					<figure>
+						<img src="./TD2/Plan.png" height="352" width="470" alt="Screenshot du plan du site" />
+  						<figcaption class="legende"><em>Plan du site</em></figcaption>
+					</figure>
+				</article>
+				
+				
+			</section>
+			
+			<aside class="sidebar">
+				<h2>Navigation</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="./TD1/Projet.html">TD1</a></li>
+						<li><a href="./TD2/index.html">TD2</a></li>
+						<li><a href="td5.php">TD5</a></li>
+						<li><a href="td6.php">TD6</a></li>
+						<li><a href="./TD7/fonctions.inc.php">TD7</a></li>					
+						<li><a href="./TD8/td8.php">TD8</a></li>
+						<li><a href="./TD9/formulaire.php">TD9</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+			
+			<aside class="sidebar">
+				<h2>TD à venir ...</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="construction.html">TD10</a></li>
+						<li><a href="construction.html">TD11</a></li>
+						<li><a href="construction.html">TD12</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+			
+			<aside class="sidebar">
+				<h2>Liens absolus</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="https://openclassrooms.com">OpenClassrooms</a></li>
+						<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens">Cours Liens</a></li>
+						<li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens#/id/r-1604554">Spécifique</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+			
+			<aside class="sidebar">
+				<h2>Liens relatifs</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="./TD2/index.html">TD2</a></li>
+						<li><a href="construction.html">Construction</a></li>
+						<li><a href="#ancre">Article sur le TD2</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+			
+			<aside class="sidebar">
+				<h2>Lien mixte</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/0e/Cours_php.pdf">Cours PHP</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+			
+			<aside class="sidebar">
+				<h2>PHP Infos</h2>
+				
+				<nav>
+					<ul>
+						<li><a href="phpinfo.php">PHP Info</a></li>
+					</ul>				
+				</nav>
+				
+			</aside>
+
+			
+		</div>
+				
+		<footer>
+			<a href="https://www.u-cergy.fr/fr/index.html" ><img src="logo-ucp.png" alt="Université de Cergy-Pontoise"/></a>	
+		</footer>
+
+	</body>
+</html>
